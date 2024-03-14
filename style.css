@@ -84,7 +84,7 @@ main{
 }
 h2{
     text-align: center;
-    margin: 0px;
+    margin: 1vh;
     padding-top: 5px;
     font-family: var(--fontetitulo1);
     color: black;
@@ -92,7 +92,6 @@ h2{
     border-radius: 5px
 }
 .menu{
-    height: 66vh;
     background-color: transparent;
     color: black;
     position: relative;
@@ -100,14 +99,14 @@ h2{
     font-size: 2.6vh;
 }
 #menutext{
-        width: 45vw;
-        text-align: center;
-        background-color: var(--cor2);
-        border-radius: 7px;
-        font-size: 3vh;
-        margin-left: 5vw;
-        font-family: var(--fonttextos2);
-        display: inline-block;
+    width: 45vw;
+    text-align: center;
+    background-color: var(--cor2);
+    border-radius: 7px;
+    font-size: 3vh;
+    margin-left: 5vw;
+    font-family: var(--fonttextos2);
+    display: inline-block;
 }
 .menutab{
     text-align: center;
@@ -124,7 +123,6 @@ h2{
 }
 #ser{
     font-size: 2.3vh;
-    height: 222vh;
     display: block;
     background-color: white;
     background-image: url(img/fundo.jpg);
@@ -142,178 +140,23 @@ h2{
     padding-top: 2px;
     font-size: 2.6vh;
 }
-#imgser1{
-    height: 30vh;
-    background-color: transparent;
-    background-image: url(img/afro1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    width: 21vw;
-    display: inline-block;
-    margin-left: 8vw;
-    border-radius: 100%;
+.cortea{
+    width: 29vw;
+    column-count: 3;
+    column-gap: 10vh;
+    margin-left: 1vw;
 }
-#imgser1:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
+.cortel{
+    width: 29vw;
+    column-count: 3;
+    column-gap: 10vh;
+    margin-left: 1vw;
 }
-#imgser2{
-    height: 40vh;
-    background-image: url(img/afro2.jpg);
-    background-color: transparent;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    display: block;
-    width: 21vw;
-    display: inline-block;
-    margin-left: 5vw;
-    border-radius: 10px 20px 50px 10px;
-}
-#imgser2:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgser3{
-    height: 30vh;
-    background-color: transparent;
-    background-image: url(img/afro3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 21vw;
-    display: inline-block;
-    margin-left: 5vw;
-    border-radius: 10px;
-}
-#imgser3:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgcab1{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    background-color: transparent;
-    background-image: url(img/liso1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 6vw;
-    border-radius: 10px;
-}
-#imgcab1:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgcab2{
-    height: 40vh;
-    width: 21vw;
-    display: inline-block;
-    background-color: transparent;
-    background-image: url(img/liso2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 4vw;
-    border-radius: 10px;
-}
-#imgcab2:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgcab3{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    background-color: transparent;
-    background-image: url(img/liso3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 4vw;
-    border-radius: 10px;
-}
-#imgcab3:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgbar1{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    position: relative;
-    margin-left: 8vw;
-    background-color: transparent;
-    background-image: url(img/barba1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 15vw;
-    border-radius: 10px;
-}
-#imgbar1:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgbar2{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    position: relative;
-    background-color: transparent;
-    background-image: url(img/barba2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 20vw;
-    border-radius: 10px;
-}
-#imgbar2:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgbar3{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    position: relative;
-    background-color: transparent;
-    background-image: url(img/barba3.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 25vw;
-    border-radius: 10px;
-}
-#imgbar3:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
-}
-#imgbar4{
-    height: 30vh;
-    width: 21vw;
-    display: inline-block;
-    position: relative;
-    background-color: transparent;
-    background-image: url(img/barbar4.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 5vw;
-    border-radius: 10px;
-}
-#imgbar4:hover{
-    height: 70vh;
-    width: 30vw;
-    transition-duration: 1s;
+.corteb{
+    width: 40vw;
+    column-count: 3;
+    column-gap: 5vh;
+    margin-left: 2vw;
 }
 #qm{
     background-color: var(--cor2);
@@ -371,7 +214,7 @@ h3{
     border-radius: 5px;
     text-decoration: none;
     padding: 11px 5px 3px 3px;
-    font-size: 3vh;
+    font-size: 3.2vh;
 }
 #li{
     background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -379,7 +222,7 @@ h3{
     text-decoration: none;
     border-radius: 5px;
     padding: 12px 5px 3px 3px;
-    font-size: 2.5vh;
+    font-size: 2.8vh;
 }
 #li:hover{
     background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -396,7 +239,7 @@ h3{
     color: white;
     border-radius: 5px;
     padding: 12px 5px 3px 3px; 
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 #lw:hover{
     background-image: linear-gradient(180deg, #04bd3e, #008f33);
