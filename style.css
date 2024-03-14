@@ -67,13 +67,14 @@ nav{
     text-decoration: none;
     font-size: 3.7vw;
     color: #ff5202;
+    border-radius: 15px;
 }
-a:hover{
+.links:hover{
     color: var(--cor1);
     font-size: 4vw;
     background-color: var(--cor5);
     padding: 3px 3px 3px 3px; 
-    border-radius: 1px;
+    border-radius: 10px;
     transition-duration: 0.5s;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
 }
@@ -361,65 +362,53 @@ h3{
 
 }
 #lf{
+    
+    text-decoration: none;
+    background-color: rgba(0, 110, 255, 0.808);
+    color: white;
     border-radius: 5px;
     text-decoration: none;
-    color: rgba(0, 110, 255);
     margin: 5px;
-    padding: 12px 5px 3px 3px;
+    padding: 9px 5px 3px 3px;
 }
 #li{
-    color: #d52472;
+    background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
+    color: white;
     text-decoration: none;
-    margin: 5px;
+    border-radius: 5px;
+    padding: 9px 5px 3px 3px;
 }
 #li:hover{
     background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    padding: 12px 5px 3px 3px;
+    padding: 6px 5px 3px 3px;
 }
 #lw{
-    color: #04bd3e;
-    text-decoration: none;
-    margin: 5px;
-}
-#lw:hover{
     background-image: linear-gradient(180deg, #04bd3e, #008f33);
     text-decoration: none;
     color: white;
     border-radius: 5px;
     padding: 9px 5px 3px 3px; 
 }
-#lg{
-    color: red;
-    margin: 5px;
-    display: inline;
-}
-#lg:hover{
-    font-size: 3vw;
-    background-color: red;
+#lw:hover{
+    background-image: linear-gradient(180deg, #04bd3e, #008f33);
+    text-decoration: none;
     color: white;
     border-radius: 5px;
-    padding: 10px 10px 4px 4px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
-    transition-duration: 1s;
-    max-width: 15vw;
+    padding: 3px 5px 3px 3px; 
 }
 #lt{
-    color: white;
-    margin: 5px;
-    display: inline;
-}
-#lt:hover{
     font-size: 2.5vw;
     background-color: white;
     color: black;
     border-radius: 5px;
-    padding: 16px 10px 4px 4px;
+    padding: 4px 10px 2px 4px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
     transition-duration: 1s;
     max-width: 20vw;
+    display: inline;
 }
 #btopo{
     font-size: 7vh;
@@ -444,8 +433,6 @@ h3{
 #btopo:hover{
     padding-right: 5px;
     text-decoration: none;
-    color: var(--cor1);
-    border-radius: 50%;
 }
 footer{
     background-color: black;
