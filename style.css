@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @font-face {
     font-family: "barberp";
@@ -30,6 +32,8 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@media screen and (min-width: 720px){
 body{
     
     font-family: var(--fontpadrao);
@@ -103,10 +107,11 @@ h2{
     text-align: center;
     background-color: var(--cor2);
     border-radius: 7px;
-    font-size: 3vh;
+    font-size: 2.6vh;
     margin-left: 5vw;
     font-family: var(--fonttextos2);
     display: inline-block;
+    margin-right: 5px;
 }
 .menutab{
     text-align: center;
@@ -114,15 +119,17 @@ h2{
     background-color: var(--cor2);
     border-radius: 6px;
     font-size: 3vh;
-    margin: 0px 7px;
     font-family: var(--fonttextos2);
     position: absolute;
+    height: 31.6vh;
+    width: 40vw;
+    margin: auto;
 }
 #tab{
     margin: 15px;
 }
 #ser{
-    font-size: 2.3vh;
+    font-size: 3vh;
     display: block;
     background-color: white;
     background-image: url(img/fundo.jpg);
@@ -138,17 +145,17 @@ h2{
     margin: 10px;
     text-align: center;
     padding-top: 2px;
-    font-size: 2.6vh;
+    font-size: 3.2vh;
 }
 .cortea{
-    width: 29vw;
+    width: 27.6vw;
     column-count: 3;
     column-gap: 10vh;
     margin-left: 1vw;
     border-radius: 10px;
 }
 .cortel{
-    width: 29vw;
+    width: 27.6vw;
     column-count: 3;
     column-gap: 10vh;
     margin-left: 1vw;
@@ -164,12 +171,12 @@ h2{
 #qm{
     background-color: var(--cor2);
     border-radius: 6px;
-    font-size: 2.6vh;
+    font-size: 3.4vh;
 }
 .textqm{
     text-indent: 10px;
     margin: 2px;
-    font-size: 2.6vh;
+    font-size: 3vh;
     padding-left: 5px;
 }
 #fb{
@@ -180,11 +187,11 @@ h2{
     background-position: center top;
     background-attachment: fixed;
     box-shadow: inset 1px 20px 22px 3px black;
-    font-size: 2.6vh;
+    font-size: 3.4vh;
 }
 #imgfeed{
-    column-count: 1;
-    column-gap: 40vw;
+    column-count: 3;
+    column-gap: 37vw;
     margin-top: 7px;
 }
 .imgfeed{
@@ -196,36 +203,33 @@ h2{
     background-image: linear-gradient(to right, var(--cor1), var(--cor5));
     border-radius: 6px;
     padding: 5px;
-    font-size: 3vh;
+    font-size: 3.4vh;
 }
 h3{
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 3.5vh;
+}
+#lf{
+    text-decoration: none;
+    color: rgba(0, 110, 255, 0.808);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 3px 1px 1px;
+    font-size: 4vh;
 }
 #lf:hover{
     text-decoration: none;
     background-color: rgba(0, 110, 255, 0.808);
     color: white;
     border-radius: 5px;
-    font-size: 3vh;
-}
-#lf{
-    
-    text-decoration: none;
-    background-color: rgba(0, 110, 255, 0.808);
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 12px 3px 1px 1px;
-    font-size: 2.4vh;
+    font-size: 5vh;
 }
 #li{
-    background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
-    color: white;
+    color:  #fc1a7c;
     text-decoration: none;
     border-radius: 5px;
     padding: 12px 3px 1px 1px;
-    font-size: 2.4vh;
+    font-size: 4vh;
 }
 #li:hover{
     background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -233,16 +237,15 @@ h3{
     text-decoration: none;
     border-radius: 5px;
     padding: 14px 5px 3px 3px;
-    font-size: 3vh;
+    font-size: 5vh;
 
 }
 #lw{
-    background-image: linear-gradient(180deg, #04bd3e, #008f33);
     text-decoration: none;
-    color: white;
+    color: #04bd3e;
     border-radius: 5px;
     padding: 10px 3px 1px 1px; 
-    font-size: 2.4vh;
+    font-size: 4vh;
 }
 #lw:hover{
     background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -250,7 +253,7 @@ h3{
     color: white;
     border-radius: 5px;
     padding: 13px 4px 3px 3px; 
-    font-size: 3vh;
+    font-size: 5vh;
 }
 #btopo{
     font-size: 7vh;
@@ -280,7 +283,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 footer a{
     text-decoration: none;
@@ -293,4 +296,5 @@ footer a{
 }
 a{
     transition-duration: 1s;
+}
 }

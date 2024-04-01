@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 452.99px){
+    
+}
+
+@media screen and (min-width:453px) and (max-width: 719.99px){
+    body{
+        background-color: rgb(39, 38, 38);
+        margin: 0px;
+    }
+    header{
+        background-image: linear-gradient(to bottom, black, rgb(39, 38, 38));
+    }
+    #logot{
+        text-align: center;
+        margin: auto;
+    }
+    #titulop{
+        background: -webkit-linear-gradient(50deg, #f7e04d, #ff5202);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h1{
+        font-family: var(--fontetitulo2);
+        text-align: center;
+        font-size: 8vw;
+        margin: 2px;
+    }
+    nav{
+        text-align: center;
+        font-family: var(--fonttextos2);
+        margin-bottom: 5px;
+        
+    }
+    .links{
+        margin-left: 2vw;
+        text-decoration: none;
+        font-size: 3.7vw;
+        color: #ff5202;
+        border-radius: 15px;
+    }
+    .links:hover{
+        color: var(--cor1);
+        font-size: 4vw;
+        background-color: var(--cor5);
+        padding: 3px 3px 3px 3px; 
+        border-radius: 10px;
+        transition-duration: 0.5s;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
+    }
+    h2{
+        text-align: center;
+        margin: 1vh;
+        padding-top: 5px;
+        font-family: var(--fontetitulo1);
+        color: black;
+        background-image: linear-gradient(50deg, var(--cor1), var(--cor5));
+        border-radius: 5px
+    }
+    #menutext{
+        width: 45vw;
+        text-align: center;
+        background-color: var(--cor2);
+        border-radius: 7px;
+        font-size: 2.6vh;
+        margin-left: 5vw;
+        font-family: var(--fonttextos2);
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .menutab{
+        text-align: center;
+        display: inline-block;
+        background-color: var(--cor2);
+        border-radius: 6px;
+        font-size: 3.2vh;
+        font-family: var(--fonttextos2);
+        position: absolute;
+        width: 40vw;
+        margin: auto;
+    }
+    #ser{
+        font-size: 3vh;
+        display: block;
+        background-color: rgb(39, 38, 38);
+        background-image: url(img/pallet.jpeg);
+        background-repeat: repeat;
+        background-position: center center;
+        box-shadow: inset 1px 20px 22px 3px black;
+        position: relative;
+    }
+    .servico{
+        background-color: var(--cor3);
+        border-radius: 5px;
+        margin: 10px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 3.2vh;
+    }
+    .cortea{
+        width: 28.5vw;
+        column-count: 3;
+        column-gap: 10vh;
+        margin-left: 1vw;
+        border-radius: 10px;
+    }
+    .cortel{
+        width: 28.5vw;
+        column-count: 3;
+        column-gap: 10vh;
+        margin-left: 1vw;
+        border-radius: 10px;
+    }
+    .corteb{
+        width: 40vw;
+        column-count: 4;
+        column-gap: 7vh;
+        margin-left: 2vw;
+        border-radius: 10px;
+    }
+    #qm{
+        background-color: var(--cor2);
+        border-radius: 6px;
+        font-size: 3.4vh;
+    }
+    .textqm{
+        text-indent: 10px;
+        margin: 2px;
+        font-size: 3vh;
+        padding-left: 5px;
+    }
+    #fb{
+        font-size: 3vh;
+        display: block;
+        background-color: rgb(39, 38, 38);
+        background-image: url(img/pallet.jpeg);
+        background-repeat: repeat;
+        background-position: center center;
+        box-shadow: inset 1px 20px 22px 3px black;
+        position: relative;
+    }
+    #imgfeed{
+        column-count: 1;
+        column-gap: 40vw;
+        margin-top: 7px;
+    }
+    .imgfeed{
+        margin-left: 5.5vw;
+        width: 38vw;
+        border-radius: 10px;
+    }
+    #con{
+        background-image: linear-gradient(to right, var(--cor1), var(--cor5));
+        border-radius: 6px;
+        padding: 5px;
+        font-size: 3.4vh;
+    }
+    h3{
+        text-align: center;
+        font-size: 3.5vh;
+    }    
+    #lf{
+        
+        text-decoration: none;
+        background-color: rgba(0, 110, 255, 0.808);
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 12px 3px 1px 1px;
+        font-size: 2.4vh;
+    }
+    #lf:hover{
+        text-decoration: none;
+        background-color: rgba(0, 110, 255, 0.808);
+        color: white;
+        border-radius: 5px;
+        font-size: 3vh;
+    }
+    #li{
+        background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 12px 3px 1px 1px;
+        font-size: 2.4vh;
+    }
+    #li:hover{
+        background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 14px 5px 3px 3px;
+        font-size: 3vh;
+    
+    }
+    #lw{
+        background-image: linear-gradient(180deg, #04bd3e, #008f33);
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 3px 1px 1px; 
+        font-size: 2.4vh;
+    }
+    #lw:hover{
+        background-image: linear-gradient(180deg, #04bd3e, #008f33);
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 13px 4px 3px 3px; 
+        font-size: 3vh;
+    }
+    #btopo{
+        font-size: 7vh;
+        width: 23px;
+        text-decoration: none;
+        color: white;
+    }
+    #botaotopo{
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        text-decoration: none;
+    }
+    #btopo:hover{
+        padding-right: 5px;
+        text-decoration: none;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-size: 2vh;
+    }
+    footer a{
+        text-decoration: none;
+        color: var(--cor3);
+    }
+    .me:hover{
+        text-decoration: none;
+        transition-duration: 1s;
+        font-size: 4vh;
+    }
+    a{
+        transition-duration: 1s;
+    }
+}
