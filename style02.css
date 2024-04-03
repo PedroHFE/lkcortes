@@ -349,12 +349,12 @@
         font-size: 2.6vh;
         margin-left: 5vw;
         font-family: var(--fonttextos2);
-        /*display: inline-block;*/
+        display: inline-block;
         margin-right: 5px;
     }
     .menutab{
         text-align: center;
-        /*display: inline-block;*/
+        display: inline-block;
         background-color: var(--cor2);
         border-radius: 6px;
         font-size: 3.2vh;
@@ -385,21 +385,21 @@
         width: 28.5vw;
         column-count: 3;
         column-gap: 10vh;
-        margin-left: 1vw;
+        margin-left: 2.5vw;
         border-radius: 10px;
     }
     .cortel{
         width: 28.5vw;
         column-count: 3;
         column-gap: 10vh;
-        margin-left: 1vw;
+        margin-left: 2.5vw;
         border-radius: 10px;
     }
     .corteb{
         width: 40vw;
         column-count: 4;
         column-gap: 7vh;
-        margin-left: 2vw;
+        margin-left: 6vw;
         border-radius: 10px;
     }
     #qm{
