@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 452.99px){
+@media screen and (max-width: 452.99px){ /*Mobile*/
     body{
         background-color: rgb(39, 38, 38);
         margin: 0px;
@@ -69,7 +69,8 @@
         font-family: var(--fontetitulo1);
         color: black;
         background-image: linear-gradient(50deg, var(--cor1), var(--cor5));
-        border-radius: 5px
+        border-radius: 5px;
+        font-size: 3vh;
     }
     #ser{
         font-size: 3vh;
@@ -118,11 +119,11 @@
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 3vh;
+        font-size: 2vh;
         padding-left: 5px;
     }
     #fb{
-        font-size: 3vh;
+        font-size: 2vh;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -145,16 +146,16 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 3.4vh;
+        font-size: 2.4vh;
     }
     h3{
         text-align: center;
-        font-size: 3.5vh;
+        font-size: 2.5vh;
     }
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.4vh;
+        font-size: 2.4vh;
     }
     .textqm{
         text-indent: 10px;
@@ -190,7 +191,7 @@
     }
     h3{
         text-align: center;
-        font-size: 3.5vh;
+        font-size: 2.5vh;
     }
         
     #lf{
