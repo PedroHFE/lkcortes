@@ -88,7 +88,7 @@ main{
 }
 h2{
     text-align: center;
-    margin: 1vh;
+    margin: 1vw;
     padding-top: 5px;
     font-family: var(--fontetitulo1);
     color: black;
@@ -100,14 +100,14 @@ h2{
     color: black;
     position: relative;
     border-radius: 6px;
-    font-size: 2.6vh;
+    font-size: 2.6vw;
 }
 #menutext{
     width: 45vw;
     text-align: center;
     background-color: var(--cor2);
     border-radius: 7px;
-    font-size: 2.6vh;
+    font-size: 2.6vw;
     margin-left: 5vw;
     font-family: var(--fonttextos2);
     display: inline-block;
@@ -118,10 +118,10 @@ h2{
     display: inline-block;
     background-color: var(--cor2);
     border-radius: 6px;
-    font-size: 3vh;
+    font-size: 3vw;
     font-family: var(--fonttextos2);
     position: absolute;
-    height: 31.6vh;
+    height: 35.9vw;
     width: 40vw;
     margin: auto;
 }
@@ -129,7 +129,7 @@ h2{
     margin: 15px;
 }
 #ser{
-    font-size: 3vh;
+    font-size: 3vw;
     display: block;
     background-color: white;
     background-image: url(img/fundo.jpg);
@@ -145,7 +145,7 @@ h2{
     margin: 10px;
     text-align: center;
     padding-top: 2px;
-    font-size: 3.2vh;
+    font-size: 3.2vw;
 }
 .cortea{
     width: 27.6vw;
@@ -171,12 +171,12 @@ h2{
 #qm{
     background-color: var(--cor2);
     border-radius: 6px;
-    font-size: 3.4vh;
+    font-size: 3.4vw;
 }
 .textqm{
     text-indent: 10px;
     margin: 2px;
-    font-size: 3vh;
+    font-size: 3vw;
     padding-left: 5px;
 }
 #fb{
@@ -187,7 +187,7 @@ h2{
     background-position: center top;
     background-attachment: fixed;
     box-shadow: inset 1px 20px 22px 3px black;
-    font-size: 3.4vh;
+    font-size: 3.4vw;
 }
 #imgfeed{
     column-count: 3;
@@ -203,11 +203,11 @@ h2{
     background-image: linear-gradient(to right, var(--cor1), var(--cor5));
     border-radius: 6px;
     padding: 5px;
-    font-size: 3.4vh;
+    font-size: 3.4vw;
 }
 h3{
     text-align: center;
-    font-size: 3.5vh;
+    font-size: 3.5vw;
 }
 #lf{
     text-decoration: none;
@@ -215,21 +215,21 @@ h3{
     border-radius: 5px;
     text-decoration: none;
     padding: 12px 3px 1px 1px;
-    font-size: 4vh;
+    font-size: 4vw;
 }
 #lf:hover{
     text-decoration: none;
     background-color: rgba(0, 110, 255, 0.808);
     color: white;
     border-radius: 5px;
-    font-size: 5vh;
+    font-size: 5vw
 }
 #li{
     color:  #fc1a7c;
     text-decoration: none;
     border-radius: 5px;
     padding: 12px 3px 1px 1px;
-    font-size: 4vh;
+    font-size: 4vw;
 }
 #li:hover{
     background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -237,7 +237,7 @@ h3{
     text-decoration: none;
     border-radius: 5px;
     padding: 14px 5px 3px 3px;
-    font-size: 5vh;
+    font-size: 5vw;
 
 }
 #lw{
@@ -245,7 +245,7 @@ h3{
     color: #04bd3e;
     border-radius: 5px;
     padding: 10px 3px 1px 1px; 
-    font-size: 4vh;
+    font-size: 4vw;
 }
 #lw:hover{
     background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -253,10 +253,10 @@ h3{
     color: white;
     border-radius: 5px;
     padding: 13px 4px 3px 3px; 
-    font-size: 5vh;
+    font-size: 5vw;
 }
 #btopo{
-    font-size: 7vh;
+    font-size: 7vw;
     width: 23px;
     text-decoration: none;
     color: white;
@@ -292,7 +292,7 @@ footer a{
 .me:hover{
     text-decoration: none;
     transition-duration: 1s;
-    font-size: 4vh;
+    font-size: 4vw;
 }
 a{
     transition-duration: 1s;

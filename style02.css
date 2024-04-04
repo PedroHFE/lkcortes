@@ -50,7 +50,7 @@
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 3vh;
+        font-size: 3vw;
         margin: 5px;
         font-family: var(--fonttextos2);
     }
@@ -58,7 +58,7 @@
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 3vh;
+        font-size: 3vw;
         font-family: var(--fonttextos2);
         margin: 5px;
     }
@@ -70,10 +70,10 @@
         color: black;
         background-image: linear-gradient(50deg, var(--cor1), var(--cor5));
         border-radius: 5px;
-        font-size: 3vh;
+        font-size: 3vw;
     }
     #ser{
-        font-size: 3vh;
+        font-size: 3vw;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -88,7 +88,7 @@
         margin: 10px;
         text-align: center;
         padding-top: 2px;
-        font-size: 3.2vh;
+        font-size: 3.2vw;
     }
     .cortea{
         width: 28.5vw;
@@ -114,16 +114,16 @@
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.4vh;
+        font-size: 3.4vw;
     }
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 2vh;
+        font-size: 2vw;
         padding-left: 5px;
     }
     #fb{
-        font-size: 2vh;
+        font-size: 2vw;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -146,25 +146,25 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 2.4vh;
+        font-size: 2.4vw;
     }
     h3{
         text-align: center;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
     }
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 2.4vh;
+        font-size: 2.4vw;
     }
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 3vh;
+        font-size: 3vw;
         padding-left: 5px;
     }
     #fb{
-        font-size: 3vh;
+        font-size: 3vw;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -187,11 +187,11 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 3.4vh;
+        font-size: 3.4vw;
     }
     h3{
         text-align: center;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
     }
         
     #lf{
@@ -202,14 +202,14 @@
         border-radius: 5px;
         text-decoration: none;
         padding: 12px 3px 1px 1px;
-        font-size: 2vh;
+        font-size: 2vw;
     }
     #lf:hover{
         text-decoration: none;
         background-color: rgba(0, 110, 255, 0.808);
         color: white;
         border-radius: 5px;
-        font-size: 3vh;
+        font-size: 3vw;
     }
     #li{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -217,7 +217,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 12px 3px 1px 1px;
-        font-size: 2vh;
+        font-size: 2vw;
     }
     #li:hover{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -225,7 +225,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 14px 5px 3px 3px;
-        font-size: 3vh;
+        font-size: 3vw;
     
     }
     #lw{
@@ -234,7 +234,7 @@
         color: white;
         border-radius: 5px;
         padding: 10px 3px 1px 1px; 
-        font-size: 2vh;
+        font-size: 2vw;
     }
     #lw:hover{
         background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -242,10 +242,10 @@
         color: white;
         border-radius: 5px;
         padding: 13px 4px 3px 3px; 
-        font-size: 3vh;
+        font-size: 3vw;
     }
     #btopo{
-        font-size: 7vh;
+        font-size: 7vw;
         width: 23px;
         text-decoration: none;
         color: white;
@@ -272,7 +272,7 @@
         background-color: black;
         text-align: center;
         color: white;
-        font-size: 2vh;
+        font-size: 2vw;
     }
     footer a{
         text-decoration: none;
@@ -281,7 +281,7 @@
     .me:hover{
         text-decoration: none;
         transition-duration: 1s;
-        font-size: 4vh;
+        font-size: 4vw;
     }
     a{
         transition-duration: 1s;
@@ -358,14 +358,14 @@
         display: inline-block;
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.2vh;
+        font-size: 3.2vw;
         font-family: var(--fonttextos2);
         position: absolute;
         width: 40vw;
         margin: auto;
     }
     #ser{
-        font-size: 3vh;
+        font-size: 3vw;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -385,28 +385,28 @@
     .cortea{
         width: 28.5vw;
         column-count: 3;
-        column-gap: 10vh;
+        column-gap: 10vw;
         margin-left: 2.5vw;
         border-radius: 10px;
     }
     .cortel{
         width: 28.5vw;
         column-count: 3;
-        column-gap: 10vh;
+        column-gap: 10vw;
         margin-left: 2.5vw;
         border-radius: 10px;
     }
     .corteb{
         width: 40vw;
         column-count: 4;
-        column-gap: 7vh;
+        column-gap: 7vw;
         margin-left: 6vw;
         border-radius: 10px;
     }
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.4vh;
+        font-size: 3.4vw;
     }
     .textqm{
         text-indent: 10px;
@@ -438,11 +438,11 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 3.4vh;
+        font-size: 3.4vw;
     }
     h3{
         text-align: center;
-        font-size: 3.5vh;
+        font-size: 3.5vw;
     }    
     #lf{
         
@@ -452,14 +452,14 @@
         border-radius: 5px;
         text-decoration: none;
         padding: 12px 3px 1px 1px;
-        font-size: 2.4vh;
+        font-size: 2.4vw;
     }
     #lf:hover{
         text-decoration: none;
         background-color: rgba(0, 110, 255, 0.808);
         color: white;
         border-radius: 5px;
-        font-size: 3vh;
+        font-size: 3vw;
     }
     #li{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -467,7 +467,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 12px 3px 1px 1px;
-        font-size: 2.4vh;
+        font-size: 2.4vw;
     }
     #li:hover{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -475,7 +475,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 14px 5px 3px 3px;
-        font-size: 3vh;
+        font-size: 3vw;
     
     }
     #lw{
@@ -484,7 +484,7 @@
         color: white;
         border-radius: 5px;
         padding: 10px 3px 1px 1px; 
-        font-size: 2.4vh;
+        font-size: 2.4vw;
     }
     #lw:hover{
         background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -492,10 +492,10 @@
         color: white;
         border-radius: 5px;
         padding: 13px 4px 3px 3px; 
-        font-size: 3vh;
+        font-size: 3vw;
     }
     #btopo{
-        font-size: 7vh;
+        font-size: 7vw;
         width: 23px;
         text-decoration: none;
         color: white;
@@ -522,7 +522,7 @@
         background-color: black;
         text-align: center;
         color: white;
-        font-size: 2vh;
+        font-size: 2vw;
     }
     footer a{
         text-decoration: none;
@@ -531,7 +531,7 @@
     .me:hover{
         text-decoration: none;
         transition-duration: 1s;
-        font-size: 4vh;
+        font-size: 4vw;
     }
     a{
         transition-duration: 1s;
