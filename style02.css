@@ -50,7 +50,7 @@
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 3vw;
+        font-size: 16px;
         margin: 5px;
         font-family: var(--fonttextos2);
     }
@@ -58,7 +58,7 @@
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 3vw;
+        font-size: 16px;
         font-family: var(--fonttextos2);
         margin: 5px;
     }
@@ -70,10 +70,10 @@
         color: black;
         background-image: linear-gradient(50deg, var(--cor1), var(--cor5));
         border-radius: 5px;
-        font-size: 3vw;
+        font-size: 20px;
     }
     #ser{
-        font-size: 3vw;
+        font-size: 16px;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -88,7 +88,7 @@
         margin: 10px;
         text-align: center;
         padding-top: 2px;
-        font-size: 3.2vw;
+        font-size: 16px;
     }
     .cortea{
         width: 28.5vw;
@@ -119,11 +119,11 @@
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 2vw;
+        font-size: 16px;
         padding-left: 5px;
     }
     #fb{
-        font-size: 2vw;
+        font-size: 16px;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -146,52 +146,21 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 2.4vw;
-    }
-    h3{
-        text-align: center;
-        font-size: 2.5vw;
     }
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 2.4vw;
-    }
-    .textqm{
-        text-indent: 10px;
-        margin: 2px;
-        font-size: 3vw;
-        padding-left: 5px;
-    }
-    #fb{
-        font-size: 3vw;
-        display: block;
-        background-color: rgb(39, 38, 38);
-        background-image: url(img/pallet.jpeg);
-        background-repeat: repeat;
-        background-position: center center;
-        box-shadow: inset 1px 20px 22px 3px black;
-        position: relative;
-    }
-    #imgfeed{
-        column-count: 1;
-        column-gap: 40vw;
-        margin-top: 7px;
-    }
-    .imgfeed{
-        margin-left: 5.5vw;
-        width: 38vw;
-        border-radius: 10px;
+        font-size: 16px;
     }
     #con{
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 3.4vw;
+        font-size: 30px;
     }
     h3{
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 16px;
     }
         
     #lf{
@@ -202,14 +171,14 @@
         border-radius: 5px;
         text-decoration: none;
         padding: 12px 3px 1px 1px;
-        font-size: 2vw;
+        font-size: 16px;
     }
     #lf:hover{
         text-decoration: none;
         background-color: rgba(0, 110, 255, 0.808);
         color: white;
         border-radius: 5px;
-        font-size: 3vw;
+        font-size: 24px;
     }
     #li{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -217,7 +186,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 12px 3px 1px 1px;
-        font-size: 2vw;
+        font-size: 16px;
     }
     #li:hover{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -225,7 +194,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 14px 5px 3px 3px;
-        font-size: 3vw;
+        font-size: 24px;
     
     }
     #lw{
@@ -234,7 +203,7 @@
         color: white;
         border-radius: 5px;
         padding: 10px 3px 1px 1px; 
-        font-size: 2vw;
+        font-size: 16px;
     }
     #lw:hover{
         background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -242,7 +211,7 @@
         color: white;
         border-radius: 5px;
         padding: 13px 4px 3px 3px; 
-        font-size: 3vw;
+        font-size: 24px;
     }
     #btopo{
         font-size: 7vw;
@@ -272,7 +241,7 @@
         background-color: black;
         text-align: center;
         color: white;
-        font-size: 2vw;
+        font-size: 16px;
     }
     footer a{
         text-decoration: none;
@@ -281,7 +250,7 @@
     .me:hover{
         text-decoration: none;
         transition-duration: 1s;
-        font-size: 4vw;
+        font-size: 24px;
     }
     a{
         transition-duration: 1s;
@@ -340,15 +309,16 @@
         font-family: var(--fontetitulo1);
         color: black;
         background-image: linear-gradient(50deg, var(--cor1), var(--cor5));
-        border-radius: 5px
+        border-radius: 5px;
+        font-size: 25px;
     }
     #menutext{
         width: 45vw;
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 2.6vh;
-        margin-left: 5vw;
+        font-size: 40px;
+        margin-left: 19.5px;
         font-family: var(--fonttextos2);
         display: inline-block;
         margin-right: 5px;
@@ -358,14 +328,14 @@
         display: inline-block;
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.2vw;
+        font-size: 20px;
         font-family: var(--fonttextos2);
         position: absolute;
         width: 40vw;
         margin: auto;
     }
     #ser{
-        font-size: 3vw;
+        font-size: 20px;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -380,7 +350,7 @@
         margin: 10px;
         text-align: center;
         padding-top: 2px;
-        font-size: 3.2vh;
+        font-size: 16px;
     }
     .cortea{
         width: 28.5vw;
@@ -406,16 +376,16 @@
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 3.4vw;
+        font-size: 54px;
     }
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 3vh;
+        font-size: 48px;
         padding-left: 5px;
     }
     #fb{
-        font-size: 3vh;
+        font-size: 48px;
         display: block;
         background-color: rgb(39, 38, 38);
         background-image: url(img/pallet.jpeg);
@@ -438,11 +408,11 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 3.4vw;
+        font-size: 54px;
     }
     h3{
         text-align: center;
-        font-size: 3.5vw;
+        font-size: 58px;
     }    
     #lf{
         
@@ -452,14 +422,14 @@
         border-radius: 5px;
         text-decoration: none;
         padding: 12px 3px 1px 1px;
-        font-size: 2.4vw;
+        font-size: 40px;
     }
     #lf:hover{
         text-decoration: none;
         background-color: rgba(0, 110, 255, 0.808);
         color: white;
         border-radius: 5px;
-        font-size: 3vw;
+        font-size: 50px;
     }
     #li{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -467,7 +437,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 12px 3px 1px 1px;
-        font-size: 2.4vw;
+        font-size: 40px;
     }
     #li:hover{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -475,7 +445,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 14px 5px 3px 3px;
-        font-size: 3vw;
+        font-size: 50px;
     
     }
     #lw{
@@ -484,7 +454,7 @@
         color: white;
         border-radius: 5px;
         padding: 10px 3px 1px 1px; 
-        font-size: 2.4vw;
+        font-size: 40px;
     }
     #lw:hover{
         background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -492,7 +462,7 @@
         color: white;
         border-radius: 5px;
         padding: 13px 4px 3px 3px; 
-        font-size: 3vw;
+        font-size: 50px;
     }
     #btopo{
         font-size: 7vw;
@@ -522,7 +492,7 @@
         background-color: black;
         text-align: center;
         color: white;
-        font-size: 2vw;
+        font-size: 32px;
     }
     footer a{
         text-decoration: none;
@@ -531,7 +501,7 @@
     .me:hover{
         text-decoration: none;
         transition-duration: 1s;
-        font-size: 4vw;
+        font-size: 50px;
     }
     a{
         transition-duration: 1s;
