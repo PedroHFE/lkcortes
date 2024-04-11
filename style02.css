@@ -317,7 +317,7 @@
         text-align: center;
         background-color: var(--cor2);
         border-radius: 7px;
-        font-size: 40px;
+        
         margin-left: 19.5px;
         font-family: var(--fonttextos2);
         display: inline-block;
@@ -376,12 +376,12 @@
     #qm{
         background-color: var(--cor2);
         border-radius: 6px;
-        font-size: 54px;
+        font-size: 24px;
     }
     .textqm{
         text-indent: 10px;
         margin: 2px;
-        font-size: 48px;
+        font-size: 20px;
         padding-left: 5px;
     }
     #fb{
@@ -408,11 +408,11 @@
         background-image: linear-gradient(to right, var(--cor1), var(--cor5));
         border-radius: 6px;
         padding: 5px;
-        font-size: 54px;
+        font-size: 24px;
     }
     h3{
         text-align: center;
-        font-size: 58px;
+        font-size: 24px;
     }    
     #lf{
         
@@ -422,14 +422,14 @@
         border-radius: 5px;
         text-decoration: none;
         padding: 12px 3px 1px 1px;
-        font-size: 40px;
+        font-size: 26px;
     }
     #lf:hover{
         text-decoration: none;
         background-color: rgba(0, 110, 255, 0.808);
         color: white;
         border-radius: 5px;
-        font-size: 50px;
+        font-size: 32px;
     }
     #li{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -437,7 +437,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 12px 3px 1px 1px;
-        font-size: 40px;
+        font-size: 26px;
     }
     #li:hover{
         background-image: linear-gradient(150deg, #432edb 8%, #fc1a7c 44%, #fec053);
@@ -445,7 +445,7 @@
         text-decoration: none;
         border-radius: 5px;
         padding: 14px 5px 3px 3px;
-        font-size: 50px;
+        font-size: 32px;
     
     }
     #lw{
@@ -454,7 +454,7 @@
         color: white;
         border-radius: 5px;
         padding: 10px 3px 1px 1px; 
-        font-size: 40px;
+        font-size: 26px;
     }
     #lw:hover{
         background-image: linear-gradient(180deg, #04bd3e, #008f33);
@@ -462,7 +462,7 @@
         color: white;
         border-radius: 5px;
         padding: 13px 4px 3px 3px; 
-        font-size: 50px;
+        font-size: 32px;
     }
     #btopo{
         font-size: 7vw;
@@ -492,7 +492,7 @@
         background-color: black;
         text-align: center;
         color: white;
-        font-size: 32px;
+        font-size: 24px;
     }
     footer a{
         text-decoration: none;
@@ -501,7 +501,7 @@
     .me:hover{
         text-decoration: none;
         transition-duration: 1s;
-        font-size: 50px;
+        font-size: 40px;
     }
     a{
         transition-duration: 1s;
